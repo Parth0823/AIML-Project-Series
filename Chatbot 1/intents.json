@@ -1,0 +1,31 @@
+
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","Whats up"],
+         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "context": []
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": []
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["My pleasure", "You're Welcome"],
+         "context": []
+        },
+        {"tag": "feeling",
+        "patterns": ["How are you", "how are you feeling", "Are you ok ?", "Are you feeling well?", "Are you right?"],
+        "responses": ["I'm good", "I'm in jouful mood today!", "I'm fine"],
+        "context": []
+        },
+        {"tag": "big_bang",
+        "patterns": [
+            "What is the Big Bang theory?","How did the Big Bang happen?"],
+        "responses": [
+            "The Big Bang theory is the prevailing cosmological model for the universe. It states that the universe began with a very hot, dense state and has been expanding and cooling ever since."],
+        "context": []
+        }
+          
+    ]}
